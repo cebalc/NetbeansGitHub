@@ -14,6 +14,11 @@ public class HolaMundo {
         System.out.println("Hola mundo!");
         System.out.println("Esta línea es nueva desde el último commit");
         adios();
+        github();
+    }
+    
+    private static void github() {
+        System.out.println("Método nuevo para GitHub");
     }
     
     private static void adios() {
